@@ -23,5 +23,8 @@ Nucleus AI is an offline voice assistant prototype designed for educational supp
 - Local inference working
 - Raspberry Pi deployment in progress
 
+Check out the [Design Specifications](design.md) and [Project Architecture](architecture.md).
+
+
 ## Acknowledgements
 This prototype builds upon the open-source Pocket AI project and has been adapted for the Nucleus AI educational voice assistant prototype.
