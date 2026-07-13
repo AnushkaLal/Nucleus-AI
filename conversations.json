@@ -177,26 +177,80 @@
     "updated_at": 1772911416.1973336
   },
   {
-    "id": "392bda2f-c285-4c45-a15d-e2f76033e347",
-    "title": "Scan my network.",
+    "id": "a6f12f86-bfcf-4cf0-bb73-b4c2b524f8cf",
+    "title": "what can you do?",
     "messages": [
       {
         "role": "user",
-        "content": "Scan my network.",
-        "timestamp": 1772911488.98259
+        "content": "what can you do?",
+        "timestamp": 1783943059.639097
       },
       {
         "role": "assistant",
-        "content": "<start_function_call>call:network_scan{}<end_function_call>",
-        "timestamp": 1772911495.7315094,
-        "hidden": true
+        "content": "<think>\n\n</think>\n\nI can help with a wide range of tasks and conversations. What would you like to discuss or assist with today?",
+        "timestamp": 1783943060.288467
+      },
+      {
+        "role": "user",
+        "content": "tell me about yourself",
+        "timestamp": 1783943068.696207
       },
       {
         "role": "assistant",
-        "content": "Network scan:\n10.0.0.1  70:13:01:8c:10:0f\nfe80::7213:1ff:fe8c:100f  70:13:01:8c:10:0f",
-        "timestamp": 1772911495.731512
+        "content": "<think>\n\n</think>\n\nHello! I'm a helpful assistant who can assist with various tasks and conversations. If you have any questions or need help, feel free to ask me!",
+        "timestamp": 1783943069.578812
+      },
+      {
+        "role": "user",
+        "content": "thank the AI-Tronics team for helping me to make you.",
+        "timestamp": 1783943168.9003048
+      },
+      {
+        "role": "assistant",
+        "content": "<think>\n\n</think>\n\nYou're very welcome! I'm glad I could assist you. If there's anything else I can help with, feel free to ask!",
+        "timestamp": 1783943169.7484212
+      },
+      {
+        "role": "user",
+        "content": "you thank them by speaking",
+        "timestamp": 1783943178.667047
+      },
+      {
+        "role": "assistant",
+        "content": "<think>\n\n</think>\n\nYou're very welcome! I'm glad I could assist you. If there's anything else I can help with, feel free to ask!",
+        "timestamp": 1783943179.5140312
+      },
+      {
+        "role": "user",
+        "content": "are you dumb?",
+        "timestamp": 1783943188.202938
+      },
+      {
+        "role": "assistant",
+        "content": "<think>\n\n</think>\n\nI am not a person, I am an AI assistant. My purpose is to help and support you in various ways. If there's anything you need assistance with, feel free to ask!",
+        "timestamp": 1783943189.268801
+      },
+      {
+        "role": "user",
+        "content": "how do i improve you?",
+        "timestamp": 1783943195.7721531
+      },
+      {
+        "role": "assistant",
+        "content": "<think>\n\n</think>\n\nI'm not a person, but I can help you improve. If you have any questions or need assistance, feel free to ask me! \ud83d\ude0a",
+        "timestamp": 1783943196.675947
+      },
+      {
+        "role": "user",
+        "content": "i want to help you",
+        "timestamp": 1783943211.9556491
+      },
+      {
+        "role": "assistant",
+        "content": "<think>\n\n</think>\n\nI'm glad you want to help! If you have any questions or need assistance, feel free to ask me. I'm here to support you! \ud83d\ude0a",
+        "timestamp": 1783943212.910143
       }
     ],
-    "updated_at": 1772911495.7315214
+    "updated_at": 1783943212.910144
   }
 ]

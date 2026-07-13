@@ -46,7 +46,9 @@ class STTEngine:
                 print("---")
                 print(f"Please double-check that this exact path contains the model files (like 'am', 'conf', 'graph', etc.):")
                 print(MODEL_PATH)
-                sys.exit(1)
+                print("Vosk unavailable. Continuing without Vosk.")
+                self.model = None
+                return
 
     def _get_input_device_index(self):
         """Find the best available input device that supports our target rate, or any rate."""

@@ -19,7 +19,7 @@ PyAudio==0.2.14
 
 # Speech-to-text
 faster-whisper==1.2.1
-vosk==0.3.45
+vosk==0.3.44
 scipy==1.17.0
 
 # Text-to-speech (Piper)
