@@ -133,7 +133,7 @@ Nucleus AI is designed around four principles:
 
 # Raspberry Pi Prototype
 
-[Hardware](image.png)
+![Hardware](image.png)
 
 
 ---
