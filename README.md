@@ -386,19 +386,68 @@ Demo Video
 
 ## Electron Interface
 
-<!-- INSERT IMAGE -->
+![Electron_homepage](screenshots/home.png)
+![Quick_answer](screenshots/quick_agent.png)
 
 ---
 
-## Voice Conversation
+## Voice Conversation and Agent
 
-<!-- INSERT IMAGE -->
+![Chat](screenshots/voice_chat.png)
+![Agent](screenshots/agent.png)
 
 ---
 
 ## System Architecture
 
-<!-- INSERT IMAGE -->
+                   +----------------------+
+                   |       User           |
+                   +----------+-----------+
+                              |
+                    Voice / Touch Input
+                              |
+                              v
+                  +-----------------------+
+                  | React GUI (chat-gui)  |
+                  | Avatar • Bubble • UI  |
+                  +-----------+-----------+
+                              |
+                     WebSocket/API
+                              |
+                              v
+                     +----------------+
+                     |    app.py      |
+                     | Backend Server |
+                     +---+--------+---+
+                         |        |
+        +----------------+        +----------------+
+        |                                         |
+        v                                         v
++-------------------+                  +-------------------+
+| stt_whisper.py    |                  | task handlers     |
+| Speech-to-Text    |                  | Vision / Agent    |
++---------+---------+                  +---------+---------+
+          |                                      |
+          +----------------+---------------------+
+                           |
+                           v
+                  +-------------------+
+                  |   chat_ai.py      |
+                  | llama.cpp LLM     |
+                  | Qwen 2.5 3B Q4_K_M|
+                  +---------+---------+
+                            |
+                            v
+                  +-------------------+
+                  |  tts_piper.py     |
+                  | Text-to-Speech    |
+                  +---------+---------+
+                            |
+                            v
+                    Audio + Streamed Text
+                            |
+                            v
+                     React GUI Display
 
 ---
 

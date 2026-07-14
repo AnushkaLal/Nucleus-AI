@@ -104,7 +104,9 @@ export function WebSocketProvider({ children }) {
                 setIsRecording(data.status === 'listening');
                 if (data.status === 'idle') {
                     setIsVoiceStreaming(false);
+                    setTimeout(() => {
                     setVoiceStreamText('');
+                    }, 5000);
                 }
                 break;
             case 'voice_transcription':

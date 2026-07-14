@@ -12,5 +12,19 @@
       "message": "10 mcq type questions for grade 9"
     },
     "conversation_id": null
+  },
+  {
+    "id": "b53f3121-9ecb-49d9-8ea2-bd988167902b",
+    "name": "Reminder for assignment",
+    "description": "",
+    "schedule": {
+      "kind": "at",
+      "atMs": 1784038140000
+    },
+    "payload": {
+      "kind": "agentTurn",
+      "message": "Ask me if i have submitted my assignment and studied for the test."
+    },
+    "conversation_id": null
   }
 ]
