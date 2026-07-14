@@ -44,7 +44,7 @@ export default function Home() {
         } else if (showBubble) {
             bubbleTimeoutRef.current = setTimeout(() => {
                 setShowBubble(false);
-            }, 1000);
+            }, 5000);
         }
         return () => {
             if (bubbleTimeoutRef.current) clearTimeout(bubbleTimeoutRef.current);
